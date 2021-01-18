@@ -1,0 +1,38 @@
+#s1{
+	width: 1116px;
+height: 550.38px;
+
+
+/* border: 3px solid #000000; */
+box-sizing: border-box;
+display : flex;
+margin-top:32px;
+margin-bottom:0px;
+}
+
+
+
+#nbd-viz{
+	width: 698px;
+	height: 436.25px;
+	margin : 32px;
+}
+
+
+#p1{
+	margin-top:90px;
+}
+.paragraph{
+	
+	width: 894.19px;
+
+
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+}
+

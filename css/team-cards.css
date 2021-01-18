@@ -1,0 +1,156 @@
+.card-info{
+	position : absolute;
+
+	height: 383px;
+	width: 247px;
+
+	top :28px;
+	left:0px;
+	z-index:1;
+
+	background: #FFFFFF;
+	border: 6px solid #2CA2B8;
+	box-sizing: border-box;
+	border-radius: 9px;
+}
+
+.name{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+margin-top:188px;
+margin-bottom:3px;
+}
+
+.role{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+
+color: #838383;
+}
+
+.bio{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	
+	Width :216px;
+	Height :65px;
+
+	
+
+	/* border: 1px  solid black; */
+
+	margin: 3px 10px 0px 10px;
+}
+
+.linkedin{
+	margin:20px 23px 19px 74px
+}
+
+.email{
+	margin: 20px 60px 23px 0px;
+}
+
+.card{
+	/* border: 3px solid blue; */
+	width : 247px;
+	height: 411px;
+	position : relative;
+}
+
+.member{
+	position: absolute;
+	top:0px;
+	left:24px;
+	z-index:2;
+}
+
+#team-members h1{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 55px;
+
+	color: #2CA2B8;
+
+	margin:0px 0px 30px 0px;
+}
+
+#team-members h2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+
+	color: #8EA0A4;
+
+	margin: 0px 0px 17px 0px;
+}
+
+#card-container{
+	width : 868px;
+	/* border: 1px solid black; */
+/* 
+	position : static;
+	height : 912px;
+	display :flex;
+	flex-direction:row;
+	flex:30%;
+	flex-wrap:wrap;
+
+
+	justify-content: space-between;
+
+	min-width:100%; */
+	
+}
+
+#team-members{
+	width : 947px;
+	Height :1051px;
+	/* border:1px solid black;  */
+	
+}
+
+.bruin{
+	display: flex;
+	flex-direction:row;
+	/* border:1px solid skyblue; */
+	align-items: center;
+    justify-content: space-between;
+	margin-bottom:32px;
+}
+
+.contributions{
+	width: 605px;
+/*  */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20.58px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+}
+
+.bruin:nth-child(even){
+	flex-direction:row-reverse;
+}
