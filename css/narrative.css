@@ -9,7 +9,13 @@ body{
 	width : 1440px;
 	height: 269px;
 	position:relative;
+	min-width:100%;
+
 }
+
+
+
+
 
 #cover-container h1{
 	font-family: Arial;

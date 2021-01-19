@@ -10,6 +10,13 @@ body{
 	height: 269px;
 	position:relative;
 	z-index: 1;
+
+	min-width:100%;
+
+}
+
+#cover-container img{
+	min-width:100%;
 }
 
 #cover-container h1{

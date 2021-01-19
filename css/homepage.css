@@ -1,23 +1,6 @@
 
-#container{
-	display: flex;
-	flex-direction:column;
-  align-items: center;
-
-}
-
-#cover-contain{
-	height: 606px;
-width: 1438px;
-
-
-	display:block;
-	/* border: 1px solid black; */
-}
-
-#cover{
-	max-width:100%;
-	
+#cover-wrapper{
+	min-width:100%;
 }
 
 
