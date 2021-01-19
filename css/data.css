@@ -3,6 +3,14 @@
 	position:relative;
 }
 
+#cover-container{
+	min-width:100%;
+}
+
+#cover-container img{
+	min-width:100%;
+}
+
 #main-header{
 	font-family: Arial;
 	font-style: normal;

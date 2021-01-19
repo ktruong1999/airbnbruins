@@ -1,7 +1,13 @@
 
 #cover{
 	position:relative;
+	min-width:100%;
 }
+
+#cover img{
+	min-width:100%;
+}
+
 #cover h1{
 	font-family: Arial;
 	font-style: normal;
@@ -48,9 +54,7 @@
 }
 
 #three-levels{
-	width: 1440px;
-	/* height: 930px; */
-
+	min-width:100%;
 
 	background: #444444;
 }
@@ -107,7 +111,7 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 24px;
+line-height: 28px;
 
 color: #000000;
 
